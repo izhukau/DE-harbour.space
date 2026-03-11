@@ -744,3 +744,24 @@
 [2026-03-11T22:12:19.431+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:19.430+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-03-11T22:12:19.452+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:19.452+0000] {dag.py:3954} INFO - Setting next_dagrun for fuel_exports_etl to 2026-03-11 22:12:00+00:00, run_after=2026-03-11 22:13:00+00:00
 [2026-03-11T22:12:19.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.407 seconds
+[2026-03-11T22:12:29.582+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag.py
+[2026-03-11T22:12:29.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-03-11T22:12:29.587+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:29.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:29.867+0000] {processor.py:840} INFO - DAG(s) 'fuel_exports_etl' retrieved from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:29.884+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:29.884+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-11T22:12:29.902+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:29.902+0000] {dag.py:3954} INFO - Setting next_dagrun for fuel_exports_etl to 2026-03-11 22:12:00+00:00, run_after=2026-03-11 22:13:00+00:00
+[2026-03-11T22:12:29.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.338 seconds
+[2026-03-11T22:12:39.993+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/dag.py
+[2026-03-11T22:12:39.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-03-11T22:12:39.998+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:39.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:40.244+0000] {processor.py:840} INFO - DAG(s) 'fuel_exports_etl' retrieved from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:40.258+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:40.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-11T22:12:40.275+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:40.274+0000] {dag.py:3954} INFO - Setting next_dagrun for fuel_exports_etl to 2026-03-11 22:12:00+00:00, run_after=2026-03-11 22:13:00+00:00
+[2026-03-11T22:12:40.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.305 seconds
+[2026-03-11T22:12:50.394+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/dag.py
+[2026-03-11T22:12:50.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2026-03-11T22:12:50.397+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:50.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:50.692+0000] {processor.py:840} INFO - DAG(s) 'fuel_exports_etl' retrieved from /opt/airflow/dags/dag.py
+[2026-03-11T22:12:50.706+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:50.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-11T22:12:50.721+0000] {logging_mixin.py:188} INFO - [2026-03-11T22:12:50.721+0000] {dag.py:3954} INFO - Setting next_dagrun for fuel_exports_etl to 2026-03-11 22:12:00+00:00, run_after=2026-03-11 22:13:00+00:00
+[2026-03-11T22:12:50.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.344 seconds
