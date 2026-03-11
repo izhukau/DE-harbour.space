@@ -23,7 +23,7 @@ The DAG has 3 tasks that run in sequence:
 docker compose up -d
 
 # Launch the data generator (runs until Ctrl+C)
-python generate_fuel_exports.py
+python generate_fuel_exports.py --rows-per-file 300 --period-seconds 60                                     
 ```
 
 Airflow UI is available at [http://localhost:8080](http://localhost:8080) (login: `admin` / `admin`).
